@@ -1,0 +1,15 @@
+{
+  "name": "node-docker",
+  "version": "1.0.0",
+  "description": "node.js docker setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "spandan joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
