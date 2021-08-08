@@ -30,8 +30,8 @@
 
 #### Custom container name
 `docker build . -t <container name>`\
-`docker build . -t [docker acc user name]/<container name>:[tag]`
-Run container
+`docker build . -t [docker acc user name]/<container name>:[tag]`\
+Run container\
 `docker run <container name>`
 
 #### Containerize real world project
