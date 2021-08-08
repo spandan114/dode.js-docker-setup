@@ -1,15 +1,15 @@
 ## Docker commands
 ------------------------------
-* Get running container
-`docker ps `
+* Get running container\
+`docker ps `\
 `docker --all`
-* Start container
+* Start container\
 `docker start <container_Id/name>`
-* Stop container
-`docker stop <container_Id/name>`
+* Stop container\
+`docker stop <container_Id/name>`\
 `docker kill <container_Id/name>`
-* Get inside a container
-`docker exec -it <container_Id/name> bash`
+* Get inside a container\
+`docker exec -it <container_Id/name> bash`\
 `docker run -it <container_name> bash`
 #### Docker exec
 - docker exec [OPTIONS] [CONTAINER_NAME] [COMMAND] [ARG...]
@@ -29,7 +29,7 @@
 * Step 3 set default command
 
 #### Custom container name
-`docker build . -t <container name>`
+`docker build . -t <container name>`\
 `docker build . -t [docker acc user name]/<container name>:[tag]`
 Run container
 `docker run <container name>`
