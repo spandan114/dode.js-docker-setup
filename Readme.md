@@ -47,3 +47,15 @@ Run container\
 - Bring all files
 - Run installer
 - Set default command
+
+####  Docker compose 
+ - If you have an application that requires an NGINX server and Redis database, you can create a Docker Compose file that can run both the containers as    a service without the need to start each one separately.
+
+    - Start all services: `docker-compose up`
+    - Stop all services: `docker-compose down`
+    - Install Docker Compose using pip: `pip install -U docker-compos`
+    - Check the version of Docker Compose: `docker-compose-v`
+    - Run Docker Compose file: `docker-compose up -d`
+    - List the entire process: `docker ps`
+    - Scale a service - `docker-compose up -d -scale`
+    - Use YAML files to configure application services - `docker-ompose.yml`
